@@ -16,9 +16,8 @@ sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generat
 # Modify default PassWord
 # sed -i 's/root::0:0:99999:7:::/root:$1$ScQIGKsX$q0qEf\/tAQ2wpTR6zIUIjo.:0:0:99999:7:::/g' package/base-files/files/etc/shadow
 
-sed -e 8a\R20.7.20 | by woodfree /package/base-files/files/etc/banner
+sed -e '8 a\R20.7.20 | by woodfree' /package/base-files/files/etc/banner
+sed -i 's/DISTRIB_REVISION/DISTRIB_REVISION='R20.7.20 | by woodfree'/g' package/base-files/files/etc/openwrt_release
 
-#sed -i '/DISTRIB_REVISION/d' package/base-files/files/etc/openwrt_release
-#echo "DISTRIB_REVISION='R20.7.20 | by woodfree'" >> package/base-files/files/etc/openwrt_release
 # sed -i '/DISTRIB_DESCRIPTION/d' package/base-files/files/etc/openwrt_release
 # echo "DISTRIB_DESCRIPTION='OpenWrt R20.7.20 | by woodfree'" >> package/base-files/files/etc/openwrt_release
