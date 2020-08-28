@@ -16,4 +16,4 @@ src-git kenzo https://github.com/kenzok8/openwrt-packages
 #src-git node-request https://github.com/jerrykuku/node-request
 #src-git dailybonus https://github.com/jerrykuku/luci-app-jd-dailybonus
 src-git small https://github.com/V2RaySSR/small
-src-git advanced https://github.com/sirpdboy/luci-app-advanced
+src-git mypackages https://github.com/siropboy/mypackages
