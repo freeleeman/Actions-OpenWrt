@@ -16,5 +16,5 @@ sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generat
 # Modify default PassWord
 # sed -i 's/root::0:0:99999:7:::/root:$1$ScQIGKsX$q0qEf\/tAQ2wpTR6zIUIjo.:0:0:99999:7:::/g' package/base-files/files/etc/shadow
 
-sed -i '7 a\ R20.7.20 | by woodfree' ./package/base-files/files/etc/banner
+sed -i '7 a\ R20.7.28 | by woodfree' ./package/base-files/files/etc/banner
 sed -i "s/DISTRIB_REVISION='R20.8.27'/DISTRIB_REVISION='R20.8.27 | by woodfree'/g" ./package/lean/default-settings/files/zzz-default-settings
