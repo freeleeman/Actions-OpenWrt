@@ -26,3 +26,6 @@ git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverc
 #京东签到插件及其node-request依赖
 git clone https://github.com/jerrykuku/node-request  package/node-request 
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
+# SmartDNS插件
+git clone https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
